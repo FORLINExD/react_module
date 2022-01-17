@@ -1,15 +1,12 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
 .main__container {
     padding: 10px;
-    background-color: #7098ff;
+    background-color: #3f4068;
     min-height: 100vh;
-}
-
-.inner__container {
-    display: flex;
-    column-gap: 10px;
 }
