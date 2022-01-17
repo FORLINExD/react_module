@@ -1,1 +1,15 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+.main__container {
+    padding: 10px;
+    background-color: #7098ff;
+    min-height: 100vh;
+}
+
+.inner__container {
+    display: flex;
+    column-gap: 10px;
+}

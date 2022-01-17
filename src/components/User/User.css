@@ -1,0 +1,32 @@
+.user__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #fbfbfb;
+}
+
+.id__name_div {
+    display: flex;
+    column-gap: 10px;
+}
+
+.user__div button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #3aca95;
+    color: #3aca95;
+    background-color: #ffffff;
+    transition: .2s;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.user__div button:hover {
+    background-color: #3aca95;
+    color: #fff;
+    transition: .2s;
+}
